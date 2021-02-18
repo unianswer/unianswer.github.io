@@ -1,0 +1,33 @@
+#titolosched{
+	color: black;
+	font-family: "Garamond", serif; 
+	text-align: center;
+	font-size: 100px;
+
+}
+
+
+#sottotitolosched{color: #A52A2A;
+	font-family: "Garamond", serif; 
+	text-align: center;
+	font-size: 25px
+
+}
+
+
+.testo {font-family: "Georgia", serif;}
+
+
+#nomeuni {
+	color: black;
+	font-family: "Garamond", serif; 
+	text-align: center;
+	font-size: 60px; 
+}
+
+
+#corso{ color: black;
+	font-family: "Georgia", serif; 
+	text-align: center;
+	font-size: 45px; 
+}

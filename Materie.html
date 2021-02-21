@@ -6,14 +6,14 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.79.0">
-  <title>Unianswer Unipa Studi filosofici e storici</title>
+  <title>Unianswer Studi filosofici e storici </title>
 
   <!--link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/"-->
 
   
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link href="cssnostro.css" rel="stylesheet" type="text/css">
+
 
 
   <!-- Bootstrap core CSS -->
@@ -28,15 +28,16 @@
       user-select: none;
     }
 
-    .btn-circle.btn-sm { 
-      width: 30px; 
-      height: 30px; 
-      padding: 0px 0px; 
-      border-radius: 15px; 
-      font-size: 16px; 
-      text-align: center; 
-    }
+    .btn-circle.btn-sm {
+    width: 30px;
+    height: 30px;
+    padding: 0px 0px;
+    border-radius: 15px;
+    font-size: 16px;
+    text-align: center;
     .card-text, .card-title {
+      color:black;
+    }    .card-text, .card-title {
       color:black;
     }
 
@@ -53,13 +54,17 @@
 </head>
 
 
-<body >
-  <div class="bg-dark">
-  <div class="container">
+<body class="bg-dark" >
 
-<nav class="navbar navbar-expand-lg navbar-light bg-dark" >
+  <div>
+
+    
+
+     <div class="container">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark" >
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">  <img src="logo.png" width="150px" height="120px"> </a>
+    <a class="navbar-brand" href="index.html">  <img src="logo.png" width="150px" height="150px"> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -91,39 +96,37 @@
     </div>
   </div>
 </nav>
+
 </div>
-</div>
-
-
-<br> <br> 
-
+    </nav>
     <div class= "container">
-
       <div class="row">
-        <h1 id="corso">  Studi filosofici e storici</h1>
+        <div class="row" > 
+        <h1 class= "text-center text-white">Studi filosofici e storici</h1> 
       </div>
-       
-<p> <br> <br> <br> <br></p>
-
-      <div class= "row">  
-        <div class="col-6"> 
-          <h2 class= "text-left testo"></h2>
+     <p> <br><br><br><br> </p>
+      <!-- Copoiare -->
+      <div class= "row"> 
+        <div class="col-6">
+          <h2 class= "text-left text-white">Materie:</h2>
         </div>
+
         <div class="col-6">
           <div class= "row"> 
             <div class= "col-10"> 
-              <input class="form-control " type="search" placeholder="Cerca materia" aria-label="Search"/>
+              <input class="form-control " type="search" placeholder="Search" aria-label="Search"/>
             </div>
             <div class= "col-2"> 
- <button type="button" class="btn btn-primary btn-circle btn-sm">+</button>
+<button type="button" class="btn btn-secondary btn-circle btn-sm">+</button>
             </div>
           </div>
 
-<br> <br> <br> 
          
         </div>
       </div>
+      <p> <br><br></p>
         <div class= "col-12">
+         <div class= "col-12">
           <nav>
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
     <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Storia della filosofia</button>
@@ -336,13 +339,12 @@
 </div>
 </div>
 </div>
-
-
-    </body>
-
-<footer> 
-  <br><br><br><br><br><br><br>
-  <p style="color: grey"> © UniAnswer. Finazzo, Palumbo, Saporito.   2020 <br> Contatti: uni.answer20@gmail.com</p>
+</div>
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <p style="text-align: center;"> © UniAnswer. Finazzo, Palumbo, Saporito.   2020 <br> Contatti: uni.answer20@gmail.com</p>
+  </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
